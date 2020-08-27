@@ -13,11 +13,11 @@ end
 
 def take_a_number(katz_deli, name)
     katz_deli.push ("Ada")
-    puts "Welcome, #{new_array[-1]}. You are number #{new_array.length} in line."
+    puts "Welcome, #{katz_deli[-1]}. You are number #{katz_deli.length} in line."
   elsif katz_deli.push ("Grace")
-    puts "Welcome, #{new_array1[-1]}. You are number #{new_array1.length} in line."
+    puts "Welcome, #{katz_deli[-1]}. You are number #{katz_deli.length} in line."
   elsif katz_deli.push ("Kent")
-    puts "Welcome, #{new_array1[-1]}. You are number #{new_array1.length} in line."
+    puts "Welcome, #{katz_deli[-1]}. You are number #{katz_deli.length} in line."
   end
 end
 
