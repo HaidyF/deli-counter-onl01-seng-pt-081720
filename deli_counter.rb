@@ -17,7 +17,7 @@ def take_a_number(katz_deli, name)
   elsif katz_deli.push ("Grace")
     puts "Welcome, #{new_array1[-1]}. You are number #{new_array1.length} in line."
   elsif katz_deli.push ("Kent")
-    puts "Welcome, #{new_array1[1]}. You are number #{new_array1.length} in line."
+    puts "Welcome, #{new_array1[-1]}. You are number #{new_array1.length} in line."
   end
 end
 
