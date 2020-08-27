@@ -18,7 +18,6 @@ def take_a_number(katz_deli, name)
     puts "Welcome, #{katz_deli[-1]}. You are number #{katz_deli.length} in line."
     katz_deli.push ("Kent")
     puts "Welcome, #{katz_deli[-1]}. You are number #{katz_deli.length} in line."
-  end
 end
 
 def now_serving (katz_deli)
