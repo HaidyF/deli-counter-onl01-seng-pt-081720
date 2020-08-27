@@ -12,7 +12,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-    katz_deli.push ("Ada","Grace", "Kent")
+    katz_deli.push ("Ada","Grace","Kent")
     puts "Welcome, #{katz_deli[0]}. You are number #{katz_deli.length-2} in line."
     puts "Welcome, #{katz_deli[1]}. You are number #{katz_deli.length-1} in line."
     puts "Welcome, #{katz_deli[-1]}. You are number #{katz_deli.length} in line."
