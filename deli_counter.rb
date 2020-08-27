@@ -13,7 +13,7 @@ end
 
 def take_a_number(katz_deli, name)
     katz_deli.push ("Ada")
-    puts "Welcome, #{katz_deli[-1]}. You are number #{katz_deli.length} in line."
+    puts "Welcome, #{katz_deli[-2]}. You are number #{katz_deli.length-1} in line."
     katz_deli.push ("Grace")
     puts "Welcome, #{katz_deli[-1]}. You are number #{katz_deli.length} in line."
     katz_deli.push ("Kent")
